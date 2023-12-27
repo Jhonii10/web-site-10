@@ -11,8 +11,9 @@ const StyledContent = styled.div`
 `;
 
 const Layout = ({children , location}) => {
+
     const isHome = location.pathname === '/';
-    console.log(location.pathname === '/')
+    
     return (
         <>
         <ThemeProvider theme={theme}>
