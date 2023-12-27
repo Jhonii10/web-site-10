@@ -2,15 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import Layout from './layout/Layout';
+import Index from './pages';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <Layout>
-      
-      10
-    </Layout>
+   <BrowserRouter>
+    <Index/>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
