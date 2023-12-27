@@ -5,6 +5,7 @@ import { usePrefersReducedMotion, useScrollDirection } from '../hooks';
 import { Link } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { loaderDelay } from '../utils';
+import Menu from './menu';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -227,7 +228,7 @@ const Nav = ({isHome}) => {
             <TransitionGroup component={null}>
               {isMounted && (
                 <CSSTransition classNames={fadeClass} timeout={timeout}>
-                  <div>menu</div>
+                  <Menu/>
                 </CSSTransition>
               )}
             </TransitionGroup>
