@@ -70,11 +70,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Soy un desarrollador web que se especializa crear y diseñar experiencias expecionales.
-        Actualmente en [nombre de empresa] me centro en crear productos interactivos, accesibles 
-        y centrado en la experiencia de usuario.{' '}
+        Soy un desarrollador web que se especializa en crear y diseñar experiencias expecionales.
+        Actualmente me centro en crear productos interactivos, accesibles 
+        y centrado en la experiencia de usuario como Freelancer y para{' '}
         <a href="/#" target="_blank" rel="noreferrer">
-          [nombre empresa]
+          InversionesDiomadi
         </a>
         .
       </p>
