@@ -4,6 +4,7 @@ import { usePrefersReducedMotion } from '../../hooks';
 import sr from '../../utils/sr';
 import { srConfig } from '../../config/config';
 
+
 const StyledAboutSection = styled.section`
   max-width: 900px;
 
@@ -116,7 +117,7 @@ const StyledPic = styled.div`
 
 const About = () => {
 
-    const revealContainer = useRef(null);
+  const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
