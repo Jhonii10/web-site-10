@@ -9,7 +9,7 @@ const variables = css`
     --navy-shadow: rgba(2, 12, 27, 0.7);
     --dark-slate: #495670;
     --slate: rgb(33, 43, 54);
-    --light-slate: #a8b2d1;
+    --light-slate: #000000;
     --lightest-slate: rgb(99, 115, 129);
     --white: #e6f1ff;
     --green: rgb(7, 141, 238);
@@ -17,9 +17,8 @@ const variables = css`
     --pink: #f57dff;
     --blue: #57cbff;
 
-    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui,
-      sans-serif;
-    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --font-sans:'Quicksand', sans-serif;
+    --font-mono: 'Quicksand', sans-serif;
 
     --fz-xxs: 12px;
     --fz-xs: 13px;
