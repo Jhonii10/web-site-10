@@ -4,7 +4,6 @@ import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
 
 const GlobalStyle = createGlobalStyle`
-  ${'' /* ${fonts}; */}
   ${variables};
 
   html {
@@ -17,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
   *:before,
   *:after {
     box-sizing: inherit;
+    font-family: 'Quicksand', sans-serif;
   }
 
   ::selection {

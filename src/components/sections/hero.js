@@ -22,7 +22,7 @@ const StyledHeroSection = styled.section`
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
-    font-weight: 400;
+    font-weight: 600;
 
     @media (max-width: 480px) {
       margin: 0 0 20px 2px;
