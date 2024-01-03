@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { email } from '../../config/config'; 
+import { email, srConfig } from '../../config/config'; 
+import { usePrefersReducedMotion } from '../../hooks';
+import sr from '../../utils/sr';
 const StyledContactSection = styled.section`
   max-width: 600px;
   margin: 0 auto 100px;
@@ -39,8 +41,20 @@ const StyledContactSection = styled.section`
 `;
 
 const Contact = () => {
+
+        const revealContainer = useRef(null);
+        const prefersReducedMotion = usePrefersReducedMotion();
+      
+        useEffect(() => {
+          if (prefersReducedMotion) {
+            return;
+          }
+      
+          sr.reveal(revealContainer.current, srConfig());
+        }, [prefersReducedMotion]);
+
     return (
-        <StyledContactSection>
+        <StyledContactSection id="contact" ref={revealContainer}>
             <h2 className="numbered-heading overline">¿Que sigue?</h2>
             <h2 className="title">Ponerse en contacto</h2>
             <p>
