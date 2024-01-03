@@ -187,8 +187,6 @@ const Projects = () => {
     const firstSix = projects.slice(0, GRID_LIMIT);
     const projectsToShow = showMore ? projects : firstSix;
 
-    console.log(projects);
-
     const projectInner = node => {
         const { frontmatter, html } = node;
         const { github, external, title, tech } = frontmatter;
