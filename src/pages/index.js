@@ -6,6 +6,7 @@ import Hero from '../components/sections/hero';
 import About from '../components/sections/about';
 import Jobs from '../components/sections/jobs';
 import Featured from '../components/sections/featured';
+import Projects from '../components/sections/projects';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -20,6 +21,7 @@ const Index = () => {
                 <About/>
                 <Jobs/>
                 <Featured/>
+                <Projects/>
             </StyledMainContainer>
         </Layout>
     );
