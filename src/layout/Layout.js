@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from '../styles';
 import Nav from '../components/nav';
+import Email from '../components/email';
 
 
 const StyledContent = styled.div`
@@ -58,6 +59,7 @@ const Layout = ({children , location}) => {
             </a>
             <StyledContent>
                 <Nav isHome={isHome}/>
+                <Email isHome={isHome}/>
                 <div id="content">
                 {children}
               </div>
