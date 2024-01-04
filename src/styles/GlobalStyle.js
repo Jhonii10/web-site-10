@@ -19,10 +19,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Quicksand', sans-serif;
   }
 
-  ::selection {
+  ${'' /* ::selection {
     background-color: var(--lightest-navy);
     color: var(--lightest-slate);
-  }
+  } */}
 
   /* Provide basic, default focus styles.*/
   :focus {
