@@ -19,10 +19,10 @@ const StyledLinkWrapper = styled.div`
   }
 
   a {
-    margin: 20px auto;
+    margin: 6px auto;
     padding: 10px;
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm);
     line-height: var(--fz-lg);
     letter-spacing: 0.1em;
     font-weight: 600;

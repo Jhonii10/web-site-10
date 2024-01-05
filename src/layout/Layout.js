@@ -3,6 +3,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from '../styles';
 import Nav from '../components/nav';
 import Email from '../components/email';
+import Social from '../components/social';
 
 
 const StyledContent = styled.div`
@@ -60,6 +61,7 @@ const Layout = ({children , location}) => {
             <StyledContent>
                 <Nav isHome={isHome}/>
                 <Email isHome={isHome}/>
+                <Social isHome={isHome} />
                 <div id="content">
                 {children}
               </div>

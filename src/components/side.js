@@ -26,9 +26,8 @@ const StyledSideElement = styled.div`
 const Side = ({children, isHome , orientation}) => {
 
     const [isMounted, setIsMounted] = useState(!isHome);
-  const prefersReducedMotion = usePrefersReducedMotion();
+    const prefersReducedMotion = usePrefersReducedMotion();
  
-  console.log(isMounted);
    
   useEffect(() => {
     if (!isHome || prefersReducedMotion) {

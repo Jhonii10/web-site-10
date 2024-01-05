@@ -14,6 +14,8 @@ import IconLogo from './logo';
 import IconPlayStore from './playstore';
 import IconStar from './star';
 import IconTwitter from './twitter';
+import IconFacebook from './facebook';
+import IconWhastapp from './whastapp';
 
 
 const Icon = ({ name }) => {
@@ -46,6 +48,10 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'Facebook':
+      return <IconFacebook />;
+    case 'Whatsapp':
+      return <IconWhastapp />;
     default:
       return <IconExternal />;
   }
