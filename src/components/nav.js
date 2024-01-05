@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { navLinks } from '../config/config';
-import styled, { css } from 'styled-components';
+import styled, { css, keyframes } from 'styled-components';
 import { usePrefersReducedMotion, useScrollDirection } from '../hooks';
 import { Link } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { loaderDelay } from '../utils';
 import Menu from './menu';
+import { IconLogo } from './icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -51,6 +52,16 @@ const StyledHeader = styled.header`
   }
 `;
 
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 
 const StyledNav = styled.nav`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -80,10 +91,17 @@ const StyledNav = styled.nav`
         fill: none;
         transition: var(--transition);
         user-select: none;
-      }
+        opacity: 0;
+        transform: translateY(20px);
+        animation: ${fadeIn} 1s ease-in-out forwards;
+         }
     }
   }
+
+
 `;
+
+
 
 const StyledLinks = styled.div`
   display: flex;
@@ -125,7 +143,10 @@ const StyledLinks = styled.div`
     margin-left: 15px;
     font-size: var(--fz-xs);
   }
+
+
 `;
+
 
 
 
@@ -161,6 +182,20 @@ const Nav = ({isHome}) => {
     const fadeClass = isHome ? 'fade' : '';
     const fadeDownClass = isHome ? 'fadedown' : '';
 
+    const Logo = (
+      <div className="logo" tabIndex="-1">
+        {isHome ? (
+          <a href="/" aria-label="home">
+            <IconLogo clase={'logo'} />
+          </a>
+        ) : (
+          <Link to="/" aria-label="home">
+            <IconLogo clase={'logo'}/>
+          </Link>
+        )}
+      </div>
+    );
+
     const ResumeLink = (
         <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           Resume
@@ -175,8 +210,7 @@ const Nav = ({isHome}) => {
                 
                 prefersReducedMotion ? (
                     <>
-                    {'logo'}
-                    {}
+                    {Logo}
                     <StyledLinks>
                         <ol>
                             {
@@ -195,7 +229,7 @@ const Nav = ({isHome}) => {
             <TransitionGroup component={null}>
               {isMounted && (
                 <CSSTransition classNames={fadeClass} timeout={timeout}>
-                  <div>Logo</div>
+                  <>{Logo}</>
                 </CSSTransition>
               )}
             </TransitionGroup>

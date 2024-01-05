@@ -382,10 +382,17 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+
+
   #logo {
-    color: var(--green);
+    color:var(--lightest-slate);
+    &:focus,
+    &:hover{
+      color:var(--green);
+    }
   }
 
+  
   .overline {
     color: var(--green);
     font-family: var(--font-mono);
@@ -443,6 +450,8 @@ const GlobalStyle = createGlobalStyle`
   ${TransitionStyles};
 
   ${PrismStyles};
+
+ 
 `;
 
 export default GlobalStyle;
