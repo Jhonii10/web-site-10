@@ -1,5 +1,5 @@
 module.exports = {
-    email: 'jhonieripianoscue@gmail.com',
+    email: 'jhoniipianoscue@gmail.com',
   
     socialMedia: [
       {
@@ -19,7 +19,7 @@ module.exports = {
         url: '',
       },
       {
-        name: 'Whastapp',
+        name: 'Whatsapp',
         url: '',
       },
     ],
