@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 import { GlobalStyle, theme } from '../styles';
 import Nav from '../components/nav';
 import Email from '../components/email';
 import Social from '../components/social';
+import Loader from '../components/loader';
 
 
 const StyledContent = styled.div`
@@ -15,7 +16,7 @@ const StyledContent = styled.div`
 const Layout = ({children , location}) => {
 
     const isHome = location.pathname === '/';
-    // const [isLoading, setIsLoading] = useState(isHome);
+    const [isLoading, setIsLoading] = useState(isHome);
 
     const handleExternalLinks = () => {
         const allLinks = Array.from(document.querySelectorAll('a'));
@@ -30,9 +31,9 @@ const Layout = ({children , location}) => {
       };
     
       useEffect(() => {
-        // if (isLoading) {
-        //   return;
-        // }
+        if (isLoading) {
+          return;
+        }
     
         if (Boolean(location.pathname)) {
           const id = location.pathname.substring(1); 
@@ -46,7 +47,7 @@ const Layout = ({children , location}) => {
         }
     
         handleExternalLinks();
-      }, [location]);
+      }, [isLoading, location]);
     
       
 
@@ -58,14 +59,19 @@ const Layout = ({children , location}) => {
             <a className="skip-to-content" href="#content">
             Skip to Content
             </a>
+            {isLoading && isHome ? (
+            <Loader finishLoading={() => setIsLoading(false)} />
+          ) : (
             <StyledContent>
-                <Nav isHome={isHome}/>
-                <Email isHome={isHome}/>
-                <Social isHome={isHome} />
-                <div id="content">
+              <Nav isHome={isHome} />
+              <Social isHome={isHome} />
+              <Email isHome={isHome} />
+
+              <div id="content">
                 {children}
               </div>
             </StyledContent>
+          )}
             </ThemeProvider>
         </div>
 

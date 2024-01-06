@@ -40,7 +40,7 @@ const Side = ({children, isHome , orientation}) => {
 
     return (
         <StyledSideElement orientation={orientation}>
-            {usePrefersReducedMotion ? (
+            {prefersReducedMotion ? (
         <>{children}</>
       ) : (
         <TransitionGroup component={null}>
