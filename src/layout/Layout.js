@@ -31,9 +31,9 @@ const Layout = ({children , location}) => {
       };
     
       useEffect(() => {
-        if (isLoading) {
-          return;
-        }
+        // if (isLoading) {
+        //   return;
+        // }
     
         if (Boolean(location.pathname)) {
           const id = location.pathname.substring(1); 
@@ -47,7 +47,7 @@ const Layout = ({children , location}) => {
         }
     
         handleExternalLinks();
-      }, [isLoading, location]);
+      }, [location]);
     
       
 
