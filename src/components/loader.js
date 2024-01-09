@@ -46,27 +46,26 @@ const Loader = ({finishLoading}) => {
       loader
       .add({
         targets: '#logo #A',
-        delay: 150,
-        duration: 300,
+        duration: 200,
         easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
         targets: '#logo #B',
-        duration: 500,
+        duration: 300,
         easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
         targets: '#logo #C',
-        duration: 700,
+        duration: 500,
         easing: 'easeInOutQuart',
         opacity: 1,
       })
       .add({
         targets: '#logo',
         delay: 150,
-        duration: 2500,
+        duration: 1300,
         easing: 'easeInOutQuart',
         color: [
             'rgb(255 51 51)', 'rgb(255 51 196)', 'rgb(218 51 255)', 'rgb(109 51 255)', 'rgb(51 62 255)',
@@ -75,6 +74,13 @@ const Loader = ({finishLoading}) => {
           opacity: 0,
           scale: 0.1,
       })
+      .add({
+        targets: '.loader',
+        duration: 200,
+        easing: 'easeInOutQuart',
+        opacity: 0,
+        zIndex: -1,
+      });
     
         
     };

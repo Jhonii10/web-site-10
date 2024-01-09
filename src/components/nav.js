@@ -93,7 +93,7 @@ const StyledNav = styled.nav`
         user-select: none;
         opacity: 0;
         transform: translateY(20px);
-        animation: ${fadeIn} 1s ease-in-out forwards;
+        animation: ${fadeIn} 0.5s ease-in-out forwards;
          }
     }
   }
@@ -186,19 +186,19 @@ const Nav = ({isHome}) => {
       <div className="logo" tabIndex="-1">
         {isHome ? (
           <a href="/" aria-label="home">
-            <IconLogo clase={'logo'} />
+            <IconLogo/>
           </a>
         ) : (
           <Link to="/" aria-label="home">
-            <IconLogo clase={'logo'}/>
+            <IconLogo />
           </Link>
         )}
       </div>
     );
 
     const ResumeLink = (
-        <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
-          Resume
+        <a className="resume-button" href="resumen.pdf" target="_blank" rel="noopener noreferrer">
+          Resumen
         </a>
       );
 

@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import variables from './variables';
 import TransitionStyles from './TransitionStyles';
-import PrismStyles from './PrismStyles';
 
 const GlobalStyle = createGlobalStyle`
   ${variables};
@@ -449,7 +448,7 @@ const GlobalStyle = createGlobalStyle`
 
   ${TransitionStyles};
 
-  ${PrismStyles};
+  
 
  
 `;

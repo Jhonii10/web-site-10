@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
-import Index from './pages';
 import { BrowserRouter } from 'react-router-dom';
+import Routes from './routes/routes';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <BrowserRouter>
-    <Index/>
+    <Routes/>
     </BrowserRouter>
   </React.StrictMode>
 );
