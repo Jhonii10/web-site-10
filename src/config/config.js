@@ -4,23 +4,23 @@ module.exports = {
     socialMedia: [
       {
         name: 'GitHub',
-        url: '',
+        url: 'https://github.com/Jhonii10',
       },
       {
         name: 'Instagram',
-        url: '',
+        url: 'https://www.instagram.com/jhoniipia10',
       },
       {
         name: 'Facebook',
-        url: '',
+        url: 'https://www.facebook.com/Jhoniernoscue',
       },
       {
         name: 'Linkedin',
-        url: '',
+        url: 'https://www.linkedin.com/in/jhoniipia10',
       },
       {
         name: 'Whatsapp',
-        url: '',
+        url: 'https://wa.link/4vl0bn',
       },
     ],
   
