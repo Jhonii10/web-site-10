@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
 import { navLinks } from '../config/config';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const StyledMenu = styled.div`
   display: none;
@@ -163,6 +164,10 @@ const Menu = () => {
 
     return (
         <StyledMenu>
+
+        <Helmet>
+                <body className={menuOpen ? 'blur' : ''} />
+        </Helmet>
          <StyledHamburgerButton 
             onClick={toggleMenu}
             menuOpen={menuOpen}
