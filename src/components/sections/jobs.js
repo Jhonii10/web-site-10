@@ -149,8 +149,8 @@ const StyledTabPanel = styled.div`
   h3 {
     margin-bottom: 2px;
     font-size: var(--fz-xxl);
-    font-weight: 500;
-    line-height: 1.3;
+    font-weight: 600;
+    line-height: 1.7;
 
     .company {
       color: var(--green);
@@ -271,7 +271,7 @@ const Jobs = () => {
                       <span>{title}</span>
                       <span className="company">
                         &nbsp;@&nbsp;
-                        <a href={url} className="inline-link">
+                        <a href={url} className="inline-link" rel="noopener noreferrer" target='_blank'>
                           {company}
                         </a>
                       </span>
