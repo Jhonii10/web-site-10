@@ -4,7 +4,13 @@ const IconLoader = () => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494 505" width="100" height="100">
     <g transform="translate(0.000000,505.000000) scale(0.100000,-0.100000)">
       {/* Loader Logo */}
-      
+      <path
+        stroke="currentColor"
+        strokeWidth="5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M 50, 5 L 11, 27 L 11, 72 L 50, 95 L 89, 73 L 89, 28 z"
+      />
 
       {/* Logo */}
       <path
