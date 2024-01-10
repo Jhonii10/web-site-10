@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import styled, { ThemeProvider } from 'styled-components';
-import { GlobalStyle, theme } from '../styles';
+import styled from 'styled-components';
+import { GlobalStyle } from '../styles';
 import Nav from '../components/nav';
 import Email from '../components/email';
 import Social from '../components/social';
@@ -53,8 +53,8 @@ const Layout = ({children , location}) => {
 
     return (
         <>
-        <div id='root'>
-            <ThemeProvider theme={theme}>
+        
+            
             <GlobalStyle/>
             <a className="skip-to-content" href="#content">
             Skip to Content
@@ -72,8 +72,7 @@ const Layout = ({children , location}) => {
               </div>
             </StyledContent>
           )}
-            </ThemeProvider>
-        </div>
+        
 
         </>
     );

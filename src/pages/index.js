@@ -8,6 +8,7 @@ import Jobs from '../components/sections/jobs';
 import Featured from '../components/sections/featured';
 import Projects from '../components/sections/projects';
 import Contact from '../components/sections/contact';
+import { Helmet } from 'react-helmet';
 
 const StyledMainContainer = styled.main`
   counter-reset: section;
@@ -17,6 +18,7 @@ const Index = () => {
     const location = useLocation();
     return (
         <Layout location={location}>
+        <Helmet title="Jhoni Ipia" />
             <StyledMainContainer className="fillHeight">
                 <Hero/>
                 <About/>

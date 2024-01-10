@@ -17,7 +17,7 @@ const Routes = () => {
 
         },
         {
-            path: '*',
+            path: '/*',
             element: <Error404/>,
         },
     ])
