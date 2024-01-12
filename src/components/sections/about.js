@@ -46,6 +46,10 @@ const StyledText = styled.div`
       }
     }
   }
+
+  a{
+    line-height: 1.6;
+  }
 `;
 
 const StyledPic = styled.div`
@@ -146,15 +150,18 @@ const About = () => {
 
                     <p>
                     Avance rapido hasta el dia de hoy y he tenido el privilegio de trabajar para una variedad de clientes{' '}
-                    <a href="/">Los reblujos de pati</a>,{' '}
-                    <a href="/">Inversiones Diomardi sas</a>,{' '}
-                    <a href="/">Up work</a>,{' '} mi principal objetivo estos dias es crear productos
+                    <a href="https://www.losreblujosdepati.com/" rel="noopener noreferrer" target='_blank'>Los reblujos de pati</a>,{' '}
+                    <a href="https://inversionesdiomardisas.vercel.app/" rel="noopener noreferrer" target='_blank'>Inversiones Diomardi sas</a>,{' '}
+                    <a href="https://www.upwork.com/" rel="noopener noreferrer" target='_blank'>Upwork</a>,{' '} mi principal objetivo estos dias es crear productos
                     y experiencias digitales interactivas y exclusivas como Freelancer para una variedad de clientes.
                     </p>
 
                         <p>
                         
-                        Tambien recientemente cree una aplicion de mensajeria{' '}<a href="/">Chat app 10</a>{' '}usando tegnologias como 
+                        Tambien recientemente cree una aplicion de mensajeria{' '}
+                        <a href="https://chat-app-10-beta.vercel.app/" rel="noopener noreferrer" target='_blank' >
+                        Chat app 10
+                        </a>{' '}usando tegnologias como 
                         MongoDB, Express, React, Node, Socket.io , Style components &amp; Material UI
                         </p>
 
