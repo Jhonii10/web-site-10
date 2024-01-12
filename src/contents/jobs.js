@@ -11,9 +11,9 @@ export const DATA = [
             url: 'https://inversionesdiomardisas.vercel.app/',
           },
           html: `<ul>
-                  <li>Developed and shipped highly interactive web applications for Apple Music using Ember.js</li>
-                  <li>Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs</li>
-                  <li>Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps</li>
+                  <li>Desarrollé y envié aplicaciones web altamente interactivas para Apple Music utilizando Ember.js.</li>
+                  <li>Creó y envió la extensión Apple Music dentro de Facebook Messenger aprovechando API internas y de terceros.</li>
+                  <li>Contribuyó ampliamente a MusicKit.js, un marco de JavaScript que permite a los desarrolladores agregar un reproductor Apple Music a sus aplicaciones web.</li>
                 </ul>`,
         },
       },
@@ -29,9 +29,9 @@ export const DATA = [
             url: 'https://www.upwork.com/',
           },
           html: `<ul>
-                  <li>Developed and shipped highly interactive web applications for Apple Music using Ember.js</li>
-                  <li>Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs</li>
-                  <li>Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps</li>
+                  <li>Desarrollé y envié aplicaciones web altamente interactivas para Apple Music utilizando Ember.js.</li>
+                  <li>Creó y envió la extensión Apple Music dentro de Facebook Messenger aprovechando API internas y de terceros.</li>
+                  <li>Contribuyó ampliamente a MusicKit.js, un marco de JavaScript que permite a los desarrolladores agregar un reproductor Apple Music a sus aplicaciones web.</li>
                 </ul>`,
         },
       },
@@ -47,9 +47,9 @@ export const DATA = [
             url: 'https://www.losreblujosdepati.com/',
           },
           html: `<ul>
-                  <li>Developed and shipped highly interactive web applications for Apple Music using Ember.js</li>
-                  <li>Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs</li>
-                  <li>Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps</li>
+                  <li>Desarrollé y envié aplicaciones web altamente interactivas para Apple Music utilizando Ember.js.</li>
+                  <li>Creó y envió la extensión Apple Music dentro de Facebook Messenger aprovechando API internas y de terceros.</li>
+                  <li>Contribuyó ampliamente a MusicKit.js, un marco de JavaScript que permite a los desarrolladores agregar un reproductor Apple Music a sus aplicaciones web.</li>
                 </ul>`,
         },
       },
