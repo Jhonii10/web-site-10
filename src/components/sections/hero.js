@@ -41,6 +41,10 @@ const StyledHeroSection = styled.section`
     margin: 20px 0 0 !important;
     color: var(--slate);
     max-width: 540px;
+    a{
+      line-height: 1.6;
+    }
+    
   }
 
   .email-link {
@@ -74,7 +78,7 @@ const Hero = () => {
         Actualmente me centro en crear productos interactivos, accesibles 
         y centrado en la experiencia de usuario como Freelancer y para{' '}
         <a href="/#" target="_blank" rel="noreferrer">
-          InversionesDiomadi
+          Inversiones diomardi 
         </a>
         .
       </p>
