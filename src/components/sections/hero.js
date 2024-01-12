@@ -77,7 +77,7 @@ const Hero = () => {
         Soy un desarrollador web que se especializa en crear y diseñar experiencias expecionales.
         Actualmente me centro en crear productos interactivos, accesibles 
         y centrado en la experiencia de usuario como Freelancer y para{' '}
-        <a href="/#" target="_blank" rel="noreferrer">
+        <a href="https://inversionesdiomardisas.vercel.app/" target="_blank" rel="noreferrer">
           Inversiones diomardi 
         </a>
         .
@@ -87,7 +87,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="/#"
+      href="https://wa.link/4vl0bn"
       target="_blank"
       rel="noreferrer">
       Enviar mensaje
