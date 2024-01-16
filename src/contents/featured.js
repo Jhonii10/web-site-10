@@ -3,16 +3,18 @@ export const DATAFEATURE = [
       edges: {
         node: {
           frontmatter: {
-            title: 'CHAP APP 10',
-            cover: '/assets/images/featured/halcyon.png',
-            github: 'https://github.com/bchiang7/halcyon-site',
-            external: 'https://halcyon-theme.netlify.com/',
-            tech: [1, 2, 3, 4, 5],
+            title: 'Inversiones diomardi sas',
+            cover: '/assets/images/featured/inversionesdiomardi.png',
+            github: 'https://github.com/Jhonii10/APP-INDI-1',
+            external: 'https://inversionesdiomardisas.vercel.app/',
+            tech: ['React', 'Javascript', 'Firebase', 'Tailwindcss', 'Mui'],
           },
           html: `
-            <li>Developed and shipped highly interactive web applications for Apple Music using Ember.js</li>
-            <li>Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs</li>
-            <li>Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps</li>
+            <p> 
+              Una aplicación web completa, utilizando tecnologías de vanguardia 
+              y bibliotecas poderosas para ofrecer una experiencia digital excepcional.
+              La aplicación fue construida con React, Javascript, Firebase, Apexchart, Tailwindcss, Mui, entre otras tecnologías.
+            </p>
           `,
         },
       },
