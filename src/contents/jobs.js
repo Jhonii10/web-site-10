@@ -11,9 +11,10 @@ export const DATA = [
             url: 'https://inversionesdiomardisas.vercel.app/',
           },
           html: `<ul>
-                  <li>Desarrollé y envié aplicaciones web altamente interactivas para Apple Music utilizando Ember.js.</li>
-                  <li>Creó y envió la extensión Apple Music dentro de Facebook Messenger aprovechando API internas y de terceros.</li>
-                  <li>Contribuyó ampliamente a MusicKit.js, un marco de JavaScript que permite a los desarrolladores agregar un reproductor Apple Music a sus aplicaciones web.</li>
+                  <li>Diseñe, desarrolle y mantengo la interfaz de usuario de la aplicación web de la empresa.</li>
+                  <li>Propuse e implementé soluciones tecnológicas para mejorar los procesos internos de la empresa.</li>
+                  <li>Establecí y mantengo colaboración mediante Google Sheets y su API, facilitando el trabajo conjunto.</li>
+                  <li>Brindo soporte tecnológico en diversos entornos de la empresa, asegurando eficiencia y adaptabilidad.</li>
                 </ul>`,
         },
       },
@@ -29,9 +30,10 @@ export const DATA = [
             url: 'https://www.upwork.com/',
           },
           html: `<ul>
-                  <li>Desarrollé y envié aplicaciones web altamente interactivas para Apple Music utilizando Ember.js.</li>
-                  <li>Creó y envió la extensión Apple Music dentro de Facebook Messenger aprovechando API internas y de terceros.</li>
-                  <li>Contribuyó ampliamente a MusicKit.js, un marco de JavaScript que permite a los desarrolladores agregar un reproductor Apple Music a sus aplicaciones web.</li>
+                  <li>Creé y gestioné sitios web estáticos altamente responsivos con HTML, CSS, JavaScript, React, Tailwind y Bootstrap.</li>
+                  <li>Optimicé la experiencia de usuario en sitios web mediante cambios en interfaz y navegación, maximizando la usabilidad y satisfacción del usuario.</li>
+                  <li>Resolví problemas de rendimiento en sitios web, mejorando la velocidad de carga y la eficiencia del código para un rendimiento óptimo.</li>
+                  <li>Diseñé y desarrollé landing pages atractivas con HTML, CSS y técnicas de diseño visual para lograr páginas de destino efectivas y visualmente atractivas.</li>
                 </ul>`,
         },
       },
@@ -47,9 +49,9 @@ export const DATA = [
             url: 'https://www.losreblujosdepati.com/',
           },
           html: `<ul>
-                  <li>Desarrollé y envié aplicaciones web altamente interactivas para Apple Music utilizando Ember.js.</li>
-                  <li>Creó y envió la extensión Apple Music dentro de Facebook Messenger aprovechando API internas y de terceros.</li>
-                  <li>Contribuyó ampliamente a MusicKit.js, un marco de JavaScript que permite a los desarrolladores agregar un reproductor Apple Music a sus aplicaciones web.</li>
+                  <li>Contribuí significativamente en la creación del sitio web y e-commerce oficial de la empresa.</li>
+                  <li>Mantenía y enviaba código de producción al sitio web principal, utilizando principalmente HTML, CSS y JavaScript.</li>
+                  <li>Diseñé y desarrollé la interfaz de usuario para la nueva versión, buscando constantemente mejoras estéticas y funcionales.</li>
                 </ul>`,
         },
       },
