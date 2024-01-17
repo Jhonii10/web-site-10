@@ -7,13 +7,13 @@ export const DATAFEATURE = [
             cover: '/assets/images/featured/inversionesdiomardi.png',
             github: 'https://github.com/Jhonii10/APP-INDI-1',
             external: 'https://inversionesdiomardisas.vercel.app/',
-            tech: ['React', 'Javascript', 'Firebase', 'Tailwindcss', 'Mui'],
+            tech: ['React', 'Javascript', 'Firebase', 'Tailwindcss', 'MUI'],
           },
           html: `
             <p> 
               Una aplicación web completa, utilizando tecnologías de vanguardia 
               y bibliotecas poderosas para ofrecer una experiencia digital excepcional.
-              La aplicación fue construida con React, Javascript, Firebase, Apexchart, Tailwindcss, Mui, entre otras tecnologías.
+              La aplicación fue construida con React, Javascript, Firebase, Apexchart, Tailwindcss, MUI, entre otras tecnologías.
             </p>
           `,
         },
@@ -23,16 +23,18 @@ export const DATAFEATURE = [
       edges: {
         node: {
           frontmatter: {
-            title: 'Another Project',
-            cover: '/assets/images/featured/halcyon.png',
-            github: 'https://github.com/username/another-project',
-            external: 'https://another-project-demo.netlify.com/',
-            tech: [2, 4, 6],
+            title: 'Chat app 10',
+            cover: '/assets/images/featured/chatapp10.png',
+            github: 'https://github.com/Jhonii10/Chat-app-10',
+            external: 'https://chat-app-10-beta.vercel.app',
+            tech: ['React', 'Mongodb', 'Express', 'Node.js','Socket.io'],
           },
           html: `
-            <li>Developed and deployed a responsive website with React.js</li>
-            <li>Implemented authentication and user management using Firebase</li>
-            <li>Integrated a RESTful API for fetching and displaying dynamic content</li>
+              <p> 
+              Desarrollé una aplicación web de chat en tiempo real con interfaz gráfica amigable usando React, 
+              JavaScript y MUI. El backend utiliza Node.js, Express y Socket.io, con MongoDB como base de datos NoSQL 
+              para ofrecer una mejor experiencia.
+            </p>
           `,
         },
       },
