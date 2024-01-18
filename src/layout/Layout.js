@@ -5,6 +5,7 @@ import Nav from '../components/nav';
 import Email from '../components/email';
 import Social from '../components/social';
 import Loader from '../components/loader';
+import Head from '../components/head';
 
 
 const StyledContent = styled.div`
@@ -54,6 +55,7 @@ const Layout = ({children , location}) => {
     return (
         <>
         
+            <Head/>
             
             <GlobalStyle/>
             <a className="skip-to-content" href="#content">
