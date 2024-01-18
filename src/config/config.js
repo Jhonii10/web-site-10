@@ -64,5 +64,14 @@ module.exports = {
       viewFactor,
       viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
     }),
+
+    siteMetadata: {
+      title: 'Jhoni Ipia',
+      description: 'Jhoni Ipia es una Desarrollador web que se especializa en crear experiencias digitales increibles.',
+      siteUrl: 'https://jhoniipia.vercel.app', 
+      image: '/assets/me.png', 
+      facebookUsername: '@Jhoniernoscue',
+    },
+
   };
   
