@@ -26,15 +26,15 @@ const Layout = ({children , location}) => {
             if (link.host !== window.location.host) {
               link.setAttribute('rel', 'noopener noreferrer');
               link.setAttribute('target', '_blank');
-            }
+            }   
           });
         }
       };
     
       useEffect(() => {
-        // if (isLoading) {
-        //   return;
-        // }
+        if (isLoading) {
+          return;
+        }
     
         if (Boolean(location.pathname)) {
           const id = location.pathname.substring(1); 
@@ -48,7 +48,7 @@ const Layout = ({children , location}) => {
         }
     
         handleExternalLinks();
-      }, [location]);
+      }, [isLoading, location]);
     
       
 
