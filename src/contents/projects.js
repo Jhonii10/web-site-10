@@ -7,12 +7,12 @@ export const DATAPROJECTS = [
               title: 'Journal app',
               github: 'https://github.com/Jhonii10/Journal-app-10',
               external: 'https://journal-app-10.netlify.app',
-              tech: ['React y redux', 'MUI', 'Firebase'],
+              tech: ['React y redux', 'MUI', 'Firebase','Emotion'],
             },
             html: `
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-              arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-              suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit. 
+              Una aplicación web diseñada para facilitar la experiencia de llevar un diario personal en línea.
+              Con JournalApp, los usuarios pueden registrar sus pensamientos,
+              emociones y experiencias de manera fácil y segura. 
               `,
           },
         },
@@ -26,26 +26,27 @@ export const DATAPROJECTS = [
               tech: ['Java', ],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+            Batalla Naval es un emocionante juego de estrategia naval que pone a prueba tu habilidad táctica y capacidad
+            para hundir la flota enemiga. Desarrollado con <a href='https://github.com/MoonLoveless' target='_blank'>Alex</a> para el curso de
+            Programacion orientada a eventos de la universidad del valle.
+
             `,
           },
         },
       },
+      
       {
         edges: {
           node: {
             frontmatter: {
-              title: 'Diario app',
-              github: 'https://github.com/Jhonii10/diario-app',
-              external: 'https://diario-app-10.netlify.app',
-              tech: ['React', 'Tailwindcss', 'Firebase'],
+              title: 'Dragon ball app',
+              github: 'https://github.com/Jhonii10/Dragon-ball-app',
+              external: 'https://dragon-ball-app-10.netlify.app',
+              tech: ['React', 'Bootstrap','PWA'],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+            Una sitio web emocionante para explorar información detallada sobre los personajes de Dragon Ball Z incluyendo su nombre, raza, biografía y habilidades. Busca, encuentra y
+            disfruta de información rápida sobre tus personajes favoritos.
             `,
           },
         },
@@ -59,26 +60,9 @@ export const DATAPROJECTS = [
               tech: ['Java', ],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
-            `,
-          },
-        },
-      },
-      {
-        edges: {
-          node: {
-            frontmatter: {
-              title: 'Dragon ball app',
-              github: 'https://github.com/Jhonii10/Dragon-ball-app',
-              external: 'https://dragon-ball-app-10.netlify.app',
-              tech: ['React', 'Bootstrap'],
-            },
-            html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+            Prepárate para desafiar tu mente y mejorar tu memoria en este emocionante juego. El objetivo es simple: memorizar tantas palabras
+            como sea posible para avanzar de nivel. Desarrollado con <a href='https://github.com/MoonLoveless' target='_blank'>Alex</a> para el curso de
+            Programacion orientada a eventos de la universidad del valle.
             `,
           },
         },
@@ -93,9 +77,7 @@ export const DATAPROJECTS = [
               tech: ['React', 'Bootstrap'],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+            Creacion de sitio web de una sola pagina para la búsqueda de imágenes. El sitio permite a los usuarios buscar imágenes utilizando palabras clave y ver una galería de imágenes relacionadas.
             `,
           },
         },
@@ -109,9 +91,25 @@ export const DATAPROJECTS = [
               tech: ['Java', ],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+             Un juego de mesa que desafía tus conocimientos en diversas áreas de la cultura geek, desde cómics y videojuegos hasta ciencia ficción y tecnología.
+             Desarrollado con <a href='https://github.com/MoonLoveless' target='_blank'>Alex</a> para el curso de
+             Programacion orientada a eventos de la universidad del valle.
+            `,
+          },
+        },
+      },
+      {
+        edges: {
+          node: {
+            frontmatter: {
+              title: 'Diario app',
+              github: 'https://github.com/Jhonii10/diario-app',
+              external: 'https://diario-app-10.netlify.app',
+              tech: ['React', 'Tailwindcss', 'Firebase'],
+            },
+            html: `
+            Esta es una aplicación de diario de notas desarrollada en React, utilizando PWA (Progressive Web App) y Tailwind CSS.
+            La aplicación está respaldada por Firebase para almacenar y sincronizar las notas en la nube.
             `,
           },
         },
@@ -125,9 +123,9 @@ export const DATAPROJECTS = [
               tech: ['React', 'CSS', ],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+            Juego de estrategia donde dos jugadores compiten para alinear tres de sus fichas en línea ya sea horizontal,
+            vertical o diagonal. Este juego, también conocido como "Tic-Tac-Toe", es simple pero desafiante, 
+            perfecto para jugadores de todas las edades.
             `,
           },
         },
@@ -141,9 +139,7 @@ export const DATAPROJECTS = [
               tech: ['HTML', 'CSS', 'Javascript'],
             },
             html: `
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam libero risus, tincidunt et pellentesque sit amet, dignissim ac mauris. Aliquam id mi eu
-            arcu laoreet consequat quis mattis dui. Curabitur ac nunc ut libero consequat dignissim. Ut porttitor ligula sit amet viverra sodales. Curabitur nunc elit,
-            suscipit eu commodo vitae, viverra in purus. Integer aliquet est vitae nibh consequat, non sodales ex suscipit.
+             Mi primer sitio web lo diseñé y construí en 2020. Aprendí bastante sobre HTML, CSS y Javascript. Desde entonces, creo que mis habilidades de diseño y desarrollo web han mejorado enormemente.
             `,
           },
         },

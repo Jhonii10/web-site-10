@@ -49,20 +49,21 @@ const GlobalStyle = createGlobalStyle`
   }
 
   /* Scrollbar Styles */
-  html {
+  ${'' /* html {
     scrollbar-width: thin;
     scrollbar-color: var(--dark-slate) var(--navy);
-  }
-  ::-webkit-scrollbar {
+  } */}
+  
+  &::-webkit-scrollbar {
     width: 12px;
   }
-  ::-webkit-scrollbar-track {
+  &::-webkit-scrollbar-track {
     background: var(--navy);
   }
-  ::-webkit-scrollbar-thumb {
+  &::-webkit-scrollbar-thumb {
     background-color: var(--dark-slate);
     border: 3px solid var(--navy);
-    border-radius: 10px;
+    border-radius: 10px !important;
   }
 
   body {

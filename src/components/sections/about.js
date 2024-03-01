@@ -149,8 +149,7 @@ const About = () => {
                     </p>
 
                     <p>
-                    Avance rapido hasta el dia de hoy y he tenido el privilegio de trabajar para una variedad de clientes{' '}
-                    <a href="https://www.losreblujosdepati.com/" rel="noopener noreferrer" target='_blank'>Los reblujos de pati</a>,{' '}
+                    Avance rapido hasta el dia de hoy y he tenido el privilegio de trabajar para una variedad de clientes como{' '}
                     <a href="https://inversionesdiomardisas.vercel.app/" rel="noopener noreferrer" target='_blank'>Inversiones Diomardi sas</a>,{' '}
                     <a href="https://www.upwork.com/" rel="noopener noreferrer" target='_blank'>Upwork</a>,{' '} mi principal objetivo estos dias es crear productos
                     y experiencias digitales interactivas y exclusivas como Freelancer para una variedad de clientes.
@@ -161,7 +160,7 @@ const About = () => {
                         Tambien recientemente cree una aplicion de mensajeria{' '}
                         <a href="https://chat-app-10-beta.vercel.app/" rel="noopener noreferrer" target='_blank' >
                         Chat app 10
-                        </a>{' '}usando tegnologias como 
+                        </a>{' '}usando tecnologias como 
                         MongoDB, Express, React, Node, Socket.io , Style components &amp; Material UI
                         </p>
 
