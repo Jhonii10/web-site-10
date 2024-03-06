@@ -68,7 +68,7 @@ module.exports = {
     siteMetadata: {
       title: 'Jhoni Ipia',
       description: 'Jhoni Ipia es una Desarrollador web que se especializa en crear experiencias digitales increibles.',
-      siteUrl: 'https://jhoniipia.vercel.app', 
+      siteUrl: 'https://jhoniipia.com', 
       image: '/assets/me.png', 
       facebookUsername: '@Jhoniernoscue',
     },
