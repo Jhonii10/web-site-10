@@ -1,4 +1,25 @@
 export const DATAFEATURE = [
+  {
+    edges: {
+      node: {
+        frontmatter: {
+          title: 'Shope Ecommerce',
+          cover: '/assets/images/featured/shope-ecommerce.png',
+          github: 'https://github.com/Jhonii10/e-commerce-10',
+          external: 'https://shope-ecommerce.up.railway.app',
+          tech: ['React y Redux ','Firebase','Style components','Express' ],
+        },
+        html: `
+          <p> 
+           Diseñé y construí una aplicación de ecommerce completa con un front-end en React, styled components y
+           JavaScript, respaldado por Redux para gestionar el estado global. En el backend, hemos utilizado Firebase
+           como nuestra plataforma de desarrollo, aprovechando sus servicios para la autenticación de usuarios,
+           la base de datos en tiempo real y el almacenamiento de archivos. Esto nos permite construir una aplicación escalable, segura y de alto rendimiento. 
+        </p>
+        `,
+      },
+    },
+  },
     {
       edges: {
         node: {
@@ -39,26 +60,6 @@ export const DATAFEATURE = [
         },
       },
     },
-    {
-      edges: {
-        node: {
-          frontmatter: {
-            title: 'Calendario app 10',
-            cover: '/assets/images/featured/calendarioapp10.png',
-            github: 'https://github.com/Jhonii10/calendar-app-10',
-            external: 'https://calendar-app-10.netlify.app/auth/login',
-            tech: ['React y Redux ', 'Javascript','Bootstrap','Mongodb','Express' ],
-          },
-          html: `
-            <p> 
-             Diseñé y construí una aplicación de calendario colaborativa con un front-end en React, Bootstrap y
-            JavaScript, respaldado por Redux para gestionar el estado global. En el backend, desarrollé un sistema
-            CRUD completo utilizando Node.js, Mongodb y integrando algunas librerías,
-            fortalecido con una autenticación segura y robusta.  
-          </p>
-          `,
-        },
-      },
-    },
+    
   ];
   
