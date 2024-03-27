@@ -1,4 +1,25 @@
 export const DATAPROJECTS = [
+
+    {
+      edges: {
+        node: {
+          frontmatter: {
+            title: 'Calendario app 10',
+            github: 'https://github.com/Jhonii10/calendar-app-10',
+            external: 'https://calendar-app-10.netlify.app/auth/login',
+            tech: ['React y Redux ', 'Javascript','Bootstrap','Mongodb','Express' ],
+          },
+          html: `
+            <p> 
+            Diseñé y construí una aplicación de calendario colaborativa con un front-end en React, Bootstrap y
+            JavaScript, respaldado por Redux para gestionar el estado global. En el backend, desarrollé un sistema
+            CRUD completo utilizando Node.js, Mongodb y integrando algunas librerías,
+            fortalecido con una autenticación segura y robusta.  
+          </p>
+          `,
+        },
+      },
+    },
     
     {
         edges: {
