@@ -6,7 +6,7 @@
   <a href="https://vercel.com" target="_blank">Deploy in Vercel</a>
 </p>
 
-![demo](https://github.com/Jhonii10/web-site-10/tree/master/public/assets/images/demo.png)
+![demo](https://github.com/Jhonii10/web-site-10/blob/develop/public/assets/images/demo.png)
 
 ## 🛠 Installation and Setup
 
@@ -19,13 +19,13 @@ git clone https://github.com/Jhonii10/web-site-10.git
 2. Install dependencies
 
  ```sh
-`npm install`
+ npm install
  ```
 
 3. Start the development server
 
  ```sh
-`npm start`
+ npm start
  ```
 
  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
