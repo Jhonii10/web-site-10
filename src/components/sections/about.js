@@ -157,11 +157,11 @@ const About = () => {
 
                         <p>
                         
-                        Tambien recientemente cree una aplicion de mensajeria{' '}
-                        <a href="https://chat-app-10-beta.vercel.app/" rel="noopener noreferrer" target='_blank' >
-                        Chat app 10
+                        Tambien recientemente cree una tienda virtual{' '}
+                        <a href="https://shope-ecommerce.up.railway.app" rel="noopener noreferrer" target='_blank' >
+                        Shope ecommerce
                         </a>{' '}usando tecnologias como 
-                        MongoDB, Express, React, Node, Socket.io , Style components &amp; Material UI
+                        Firebase, Express, React, Node, Style components &amp; Material UI
                         </p>
 
                         <p>Aquí hay algunas tecnologías con las que he estado trabajando recientemente:</p>

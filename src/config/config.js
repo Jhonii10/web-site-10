@@ -12,7 +12,7 @@ module.exports = {
       },
       {
         name: 'Facebook',
-        url: 'https://www.facebook.com/Jhoniernoscue',
+        url: 'https://www.facebook.com/Jhoniipia10',
       },
       {
         name: 'Linkedin',
