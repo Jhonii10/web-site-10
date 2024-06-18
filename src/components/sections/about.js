@@ -145,14 +145,12 @@ const About = () => {
                     ¡Hola! Mi nombre es Jhoni y me gusta crear cosas que viven en internet.
                     Mi interes en el desarrollo web comenzo en el 2020, cuando decidi tomar un diplomado en sitios web,
                     me gusto tanto que empeze a estudiar desarrollo de software en la universidad del valle.
-                    desde el momento que inicie con HTML, CSS &amp; JavaScript aprendi muchisimo.
+                    Desde el momento que inicie con HTML, CSS &amp; JavaScript aprendi muchisimo.
                     </p>
 
                     <p>
-                    Avance rapido hasta el dia de hoy y he tenido el privilegio de trabajar para una variedad de clientes como{' '}
-                    <a href="https://inversionesdiomardisas.vercel.app/" rel="noopener noreferrer" target='_blank'>Inversiones Diomardi sas</a>,{' '}
-                    <a href="https://www.upwork.com/" rel="noopener noreferrer" target='_blank'>Upwork</a>,{' '} mi principal objetivo estos dias es crear productos
-                    y experiencias digitales interactivas y exclusivas como Freelancer para una variedad de clientes.
+                    Avance rapido hasta el dia de hoy y he tenido el privilegio de trabajar para una variedad de clientes,{' '} mi principal objetivo estos dias es crear productos
+                    y experiencias digitales interactivas y exclusivas.
                     </p>
 
                         <p>

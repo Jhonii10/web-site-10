@@ -1,5 +1,76 @@
 export const DATAPROJECTS = [
 
+  {
+    edges: {
+      node: {
+        frontmatter: {
+          title: 'Delivery app',
+          github: 'https://github.com/Jhonii10/db-mensajeria-app',
+          tech: ['Next.js ', 'Postgres','Tailwind','Node.js','express' ],
+        },
+        html: `
+          <p> 
+           Aplicacion web de entregada de paquetes contruida para el curso de base de datos de la universidad del valle. 
+          </p>
+        `,
+      },
+    },
+  },
+
+  {
+    edges: {
+      node: {
+        frontmatter: {
+          title: 'Velada 01',
+          github: 'https://github.com/Jhonii10/first-velada-24',
+          external: 'https://la-velada-01.vercel.app',
+          tech: ['Next.js ', 'Postgres','Tailwind','Vercel' ],
+        },
+        html: `
+          <p> 
+           Esta sitio web fue construido con Next.js, Prisma y Tailwind CSS, y está desplegada en Vercel. 
+          </p>
+        `,
+      },
+    },
+  },
+
+  {
+    edges: {
+      node: {
+        frontmatter: {
+          title: 'Tasks',
+          github: 'https://github.com/Jhonii10/crud-nextjs-14',
+          external: 'https://crud-nextjs-14.vercel.app',
+          tech: ['Next.js ', 'Prisma','Tailwind','Vercel' ],
+        },
+        html: `
+          <p> 
+           Esta aplicación de tareas ha sido desarrollada utilizando Next.js, Prisma y Tailwind CSS, y está desplegada en Vercel. 
+          </p>
+        `,
+      },
+    },
+  },
+
+  {
+    edges: {
+      node: {
+        frontmatter: {
+          title: 'Dashboard',
+          github: 'https://github.com/Jhonii10/dashboard-next-14',
+          external: 'https://dashboard-next-14-black.vercel.app/dashboard',
+          tech: ['Next.js ', 'Postgres','Tailwind','Vercel' ],
+        },
+        html: `
+          <p> 
+          Este panel administrativo ha sido desarrollado siguiendo la documentación oficial de Next.js.  
+          </p>
+        `,
+      },
+    },
+  },
+
     {
       edges: {
         node: {
