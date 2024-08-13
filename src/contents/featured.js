@@ -3,6 +3,26 @@ export const DATAFEATURE = [
     edges: {
       node: {
         frontmatter: {
+          title: 'Mirian | shop',
+          cover: '/assets/images/featured/mirian-shop.png',
+          github: 'https://github.com/Jhonii10/mirian-shop',
+          external: 'https://mirian-shop-demo.vercel.app',
+          tech: ['Next.js ','Zustand','Prisma','Tailwinds', 'Paypal' ],
+        },
+        html: `
+          <p> 
+           Tienda de comercio electronico construida en Next.js.
+           un popular framework basado en React que permite crear aplicaciones web rápidas y escalables.
+           Este proyecto emplea varias tecnologias e incluye una integración para pagos seguros.
+        </p>
+        `,
+      },
+    },
+  },
+  {
+    edges: {
+      node: {
+        frontmatter: {
           title: 'Shope Ecommerce',
           cover: '/assets/images/featured/shope-ecommerce.png',
           github: 'https://github.com/Jhonii10/e-commerce-10',
@@ -35,26 +55,6 @@ export const DATAFEATURE = [
               Una aplicación web completa, utilizando tecnologías de vanguardia 
               y bibliotecas poderosas para ofrecer una experiencia digital excepcional.
               La aplicación fue construida con React, Javascript, Firebase, Apexchart, Tailwindcss, MUI, entre otras tecnologías.
-            </p>
-          `,
-        },
-      },
-    },
-    {
-      edges: {
-        node: {
-          frontmatter: {
-            title: 'Chat app 10',
-            cover: '/assets/images/featured/chatapp10.png',
-            github: 'https://github.com/Jhonii10/Chat-app-10',
-            external: 'https://chat-app-10-beta.vercel.app',
-            tech: ['React', 'Mongodb', 'Express', 'Node.js','Socket.io'],
-          },
-          html: `
-              <p> 
-              Desarrollé una aplicación web de chat en tiempo real con interfaz gráfica amigable usando React, 
-              JavaScript y MUI. El backend utiliza Node.js, Express y Socket.io, con MongoDB como base de datos NoSQL 
-              para ofrecer una mejor experiencia.
             </p>
           `,
         },
