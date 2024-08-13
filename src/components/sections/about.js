@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, [prefersReducedMotion]);
 
-    const skills = ['JavaScript (ES6+)', 'Node.js', 'React', 'Mongodb', 'Style components', 'Material UI'];
+    const skills = ['JavaScript (ES6+)', 'React', 'Mongodb', 'Style components', 'Material UI' , 'Next.js','Prisma','Tailwinds'];
 
 
     return (
@@ -156,10 +156,10 @@ const About = () => {
                         <p>
                         
                         Tambien recientemente cree una tienda virtual{' '}
-                        <a href="https://shope-ecommerce.up.railway.app" rel="noopener noreferrer" target='_blank' >
-                        Shope ecommerce
+                        <a href="https://mirian-shop-demo.vercel.app" rel="noopener noreferrer" target='_blank' >
+                        Mirian shop 
                         </a>{' '}usando tecnologias como 
-                        Firebase, Express, React, Node, Style components &amp; Material UI
+                        Next.js, Zustand, Prisma, Tailwinds, Swiper &amp; Paypal
                         </p>
 
                         <p>Aquí hay algunas tecnologías con las que he estado trabajando recientemente:</p>

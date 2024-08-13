@@ -70,6 +70,27 @@ export const DATAPROJECTS = [
       },
     },
   },
+  {
+    edges: {
+      node: {
+        frontmatter: {
+          title: 'Chat app 10',
+          cover: '/assets/images/featured/chatapp10.png',
+          github: 'https://github.com/Jhonii10/Chat-app-10',
+          external: 'https://chat-app-10-beta.vercel.app',
+          tech: ['React', 'Mongodb', 'Express', 'Node.js','Socket.io'],
+        },
+        html: `
+            <p> 
+            Desarrollé una aplicación web de chat en tiempo real con interfaz gráfica amigable usando React, 
+            JavaScript y MUI. El backend utiliza Node.js, Express y Socket.io, con MongoDB como base de datos NoSQL 
+            para ofrecer una mejor experiencia.
+          </p>
+        `,
+      },
+    },
+  },
+  
 
     {
       edges: {
