@@ -7,6 +7,7 @@ import Routes from './routes/routes';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Analytics/>
+    <SpeedInsights />
    <ThemeProvider theme={theme}>
     <BrowserRouter>
       <Routes/>

@@ -26,7 +26,7 @@ export const DATAFEATURE = [
           title: 'Shope Ecommerce',
           cover: '/assets/images/featured/shope-ecommerce.png',
           github: 'https://github.com/Jhonii10/e-commerce-10',
-          external: 'https://shope-ecommerce.up.railway.app',
+          external: 'https://shope-ecommerce-demo.vercel.app',
           tech: ['React y Redux ','Firebase','Style components','Express' ],
         },
         html: `
@@ -44,7 +44,7 @@ export const DATAFEATURE = [
       edges: {
         node: {
           frontmatter: {
-            title: 'Inversiones diomardi sas',
+            title: 'Inversiones diomardi',
             cover: '/assets/images/featured/inversionesdiomardi.png',
             github: 'https://github.com/Jhonii10/APP-INDI-1',
             external: 'https://inversionesdiomardisas.vercel.app/',
