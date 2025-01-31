@@ -47,7 +47,7 @@ export const DATAFEATURE = [
             title: 'Inversiones diomardi',
             cover: '/assets/images/featured/inversionesdiomardi.png',
             github: 'https://github.com/Jhonii10/APP-INDI-1',
-            external: 'https://inversionesdiomardisas.vercel.app/',
+            external: 'https://inversionesdiomardisas-demo.vercel.app/',
             tech: ['React', 'Javascript', 'Firebase', 'Tailwindcss', 'MUI'],
           },
           html: `
