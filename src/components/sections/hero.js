@@ -76,7 +76,7 @@ const Hero = () => {
       <p>
         Soy un desarrollador web que se especializa en crear y diseñar experiencias expecionales.
         Actualmente me centro en crear productos interactivos, accesibles 
-        y centrado en la experiencia de usuario como freelancer.
+        y centrado en la experiencia de usuario para <a href='https://www.comfenalcovalle.com.co'>Comfenalco valle</a>.
       </p>
     </>
   );
