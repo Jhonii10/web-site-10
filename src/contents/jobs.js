@@ -1,5 +1,23 @@
 export const DATA = [
-    
+    {
+      edges: {
+        node: {
+          frontmatter: {
+            title: 'Desarrollador de software',
+            company: 'Comfenalco valle ',
+            location: 'Cali, Valle del cauca',
+            range: 'Marzo 2025 - Presente',
+            url: 'https://www.comfenalcovalle.com.co',
+          },
+          html: `<ul>
+                  <li>Desarrollo de aplicaciones web escalables para la modernización de servicios empresariales.</li>
+                  <li>Implementación de bots RPA para la optimización de procesos internos clave, incrementando la eficiencia operativa</li>
+                  <li>Diseño, desarrollo e integración de servicios desacoplados para garantizar la resiliencia y escalabilidad de la plataforma.</li>
+                  <li>Ejecución de migraciones tecnológicas para la actualización de sistemas legados a entornos modernos y seguros.</li>
+                </ul>`,
+        },
+      },
+    },
     {
       edges: {
         node: {
